@@ -5,6 +5,7 @@ public class Employee {
 	int age;
 	String designation;
 	double salary;
+	double allowance;
 	// This is the constructor of the class Employee
 	public Employee(String name) {
 		this.name=name;
@@ -21,6 +22,10 @@ public class Employee {
 	/* Assign the salary to the variable salary.*/
 	public void empSalary(double empSalary){
 		salary = empSalary;
+	}
+	public double getAllowance()
+	{
+		return allowance;
 	}
 	/* Print the employee details*/
 	public void printEmployee(){
